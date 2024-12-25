@@ -55,7 +55,7 @@ cp .env.dev .env
 
 You should also update the `ARWEAVE_NODES` to valid
 
-nano /root/gateway/node_modules/@_koi/logs/dist/index.js Line41 `const tools = require("@_koii/sdk/web");`
+nano /root/gateway/node_modules/@_koi/logs/dist/index.js:41:15 `const tools = require("@_koii/sdk/web");`
 
 ## Running the server
 
