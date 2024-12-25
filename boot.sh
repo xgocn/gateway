@@ -9,4 +9,4 @@ sh bin/index.drop.sh
 sh bin/import.sh
 sh bin/index.create.sh
 
-pm2 start node dist/src/Gateway --name gateway
+pm2 start node dist/src/Gateway.js --name gateway
