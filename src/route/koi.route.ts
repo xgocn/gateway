@@ -1,4 +1,4 @@
-import KoiLogs from 'koi-logs';
+import KoiLogs from '@_koi/logs';
 import {Request, Response} from 'express';
 
 export const koiLogger = new KoiLogs('./');
